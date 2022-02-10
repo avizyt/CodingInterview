@@ -7,11 +7,11 @@ import java.util.Queue;
 
 public class Josephus {
     public static void main(String[] args) {
-        int n = 15;
+        int n = 1500;
         int k = 3;
         System.out.println("Using Recursion: Survivor "+ Josephus.josephus(n, k) +"\n");
 
-        Josephus.printJosephus(n,k);
+//        Josephus.printJosephus(n,k);
     }
     public static int josephus(int n, int k){
         if ( k<= 0 || n <= 0){
