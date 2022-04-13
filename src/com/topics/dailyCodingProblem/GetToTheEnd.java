@@ -1,4 +1,4 @@
-package com.topics.arrayAndString;
+package com.topics.dailyCodingProblem;
 
 
 /**
